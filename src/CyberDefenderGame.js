@@ -86,7 +86,7 @@ const CyberDefenderGame = () => {
 
   const shareGame = () => {
     const shareText = `I just scored ${score} points in CyberDefender! Can you beat my score? Play now at [Your Game URL]`;
-    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
+    const shareUrl = `https://wa.me/?text=I%20just%20played%20CyberDefender%21%20Can%20you%20beat%20my%20score%3F%20Play%20now%20at%20https%3A%2F%2Fcyberdefender-sigma.vercel.app%2F`;
     window.open(shareUrl, '_blank');
   };
 
